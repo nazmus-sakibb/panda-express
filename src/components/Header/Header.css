@@ -11,4 +11,10 @@
     text-decoration: none;
     color: white;
     margin-right: 20px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.header nav a:hover {
+    background-color: lightgray;
 }
