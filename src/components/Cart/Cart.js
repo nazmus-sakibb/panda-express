@@ -2,7 +2,6 @@ import React from 'react';
 import './Cart.css';
 
 const Cart = ({ cart }) => {
-    console.log(cart);
 
     let total = 0;
     for(const product of cart){
@@ -13,6 +12,8 @@ const Cart = ({ cart }) => {
         <div>
             <h3>Order Summary</h3>
             <h5>Items Ordered: {cart.length}</h5>
+            <br />
+            <p>Total: {total}</p>
         </div>
     );
 };
